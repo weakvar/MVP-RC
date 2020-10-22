@@ -1,6 +1,20 @@
-# MVP-RC
+<h1 align="center">
+  <a href="https://github.com/1nd3e/MVP-RC">
+    <img width="80" src="https://github.com/1nd3e/MVP-RC/raw/main/logo.png" alt="MVP-RC">
+  </a>
+  <br>
+  MVP-RC
+</h1>
 
-A MVP module template with Router and Configurator for Xcode.
+<h3 align="center">A MVP module template with Router and Configurator for Xcode</h3>
+
+<p align="center">
+  Create ready-made modules in a few clicks.
+</p>
+<p align="center">
+  <img height="20" src="https://img.shields.io/badge/Swift-5-orange" alt="MVP-RC">
+  <img height="20" src="https://img.shields.io/badge/Xcode-12-blue" alt="MVP-RC">
+</p>
 
 ## Installation
 

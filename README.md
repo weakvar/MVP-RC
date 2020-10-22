@@ -11,10 +11,8 @@
 <p align="center">
   Create ready-made modules in a few clicks.
 </p>
-<p align="center">
-  <img height="20" src="https://img.shields.io/badge/Swift-5-orange" alt="MVP-RC">
-  <img height="20" src="https://img.shields.io/badge/Xcode-12-blue" alt="MVP-RC">
-</p>
+
+![screenshot](https://github.com/1nd3e/MVP-RC/raw/main/cover.png)
 
 ## Installation
 

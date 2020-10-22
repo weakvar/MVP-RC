@@ -12,7 +12,7 @@
   Create ready-made modules in a few clicks.
 </p>
 
-![screenshot](https://github.com/1nd3e/MVP-RC/raw/main/cover.png)
+![A MVP design pattern with Router and Configurator](https://github.com/1nd3e/MVP-RC/raw/main/cover.png)
 
 ## Installation
 

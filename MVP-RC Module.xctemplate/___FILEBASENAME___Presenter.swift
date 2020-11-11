@@ -13,7 +13,7 @@ final class ___VARIABLE_productName___Presenter: ___VARIABLE_productName___Prese
     // MARK: - Properties
     
     private weak var view: ___VARIABLE_productName___ViewProtocol?
-    private var router: ___VARIABLE_productName___RouterProtocol
+    private let router: ___VARIABLE_productName___RouterProtocol
     
     // MARK: - Initializers
     

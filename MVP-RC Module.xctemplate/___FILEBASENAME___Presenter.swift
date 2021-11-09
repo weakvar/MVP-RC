@@ -2,8 +2,6 @@
 
 import UIKit
 
-protocol ___VARIABLE_productName___ViewProtocol: class {}
-
 protocol ___VARIABLE_productName___PresenterProtocol {
     init(view: ___VARIABLE_productName___ViewProtocol, router: ___VARIABLE_productName___RouterProtocol)
 }

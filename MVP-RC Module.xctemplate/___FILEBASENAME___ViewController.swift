@@ -2,6 +2,8 @@
 
 import UIKit
 
+protocol ___VARIABLE_productName___ViewProtocol: class {}
+
 final class ___VARIABLE_productName___ViewController: UIViewController {
     
     // MARK: - Properties

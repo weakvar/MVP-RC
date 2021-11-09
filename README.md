@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="left">
   <a href="https://github.com/1nd3e/MVP-RC">
     <img width="80" src="https://github.com/1nd3e/MVP-RC/raw/main/logo.png" alt="MVP-RC">
   </a>
@@ -6,15 +6,9 @@
   MVP-RC
 </h1>
 
-<h3 align="center">A MVP module template with Router and Configurator for Xcode</h3>
+MVP module template with router and configurator for Xcode.<br>Create ready-made modules in a few clicks.
 
-<p align="center">
-  Create ready-made modules in a few clicks.
-</p>
-
-![A MVP design pattern with Router and Configurator](https://github.com/1nd3e/MVP-RC/raw/main/cover.png)
-
-## Installation
+### Installation
 
 1. Clone or download the MVP-RC repository.
 2. Go to `~/Library/Developer/Xcode/Templates`. If you don't have the Templates folder, you must create it.
@@ -22,44 +16,29 @@
 4. Copy `MVP-RC Module.xctemplate` to `Custom` folder.
 5. That's all, done.
 
-## Usage
+### Usage
 
-Open a project in Xcode. Choose where you want to create a MVP-RC module, press `CMD+N` or go to `File -> New -> File`. Search for the MVP-RC Module (it's at the bottom, in a section called Custom). Choose the MVP-RC Module, enter a name for your next module and create it.
+1. Open a project in Xcode.
+3. Choose where you want to create a new MVP module, press `CMD+N` or go to `File -> New -> File`.
+4. Search for the MVP-RC Module (it's at the bottom, in a section called Custom). 
+5. Choose the template, enter a name for your next module and create it.
 
 ![screenshot](https://github.com/1nd3e/MVP-RC/raw/main/usage_example.png)
 
-## Best Practices
-
-1. Create a separate folder for your modules (screens) in the project.
-2. Separate your modules by folders: Feed, Feed Detail, etc.
-3. Group your module files by a context.
-
-Example project structure:
+Sample project structure using the MVP-RC template:
 ```
 Project
 --- Modules
 --- --- Feed
---- --- --- Model
---- --- --- --- Feed.swift
---- --- --- View
---- --- --- --- FeedViewController.swift
---- --- --- Presenter
---- --- --- --- FeedPresenter.swift
---- --- --- Router
---- --- --- --- FeedRouter.swift
---- --- --- Configurator
---- --- --- --- FeedConfigurator.swift
+--- --- --- FeedAssembly.swift
+--- --- --- FeedViewController.swift
+--- --- --- FeedPresenter.swift
+--- --- --- FeedRouter.swift
 --- --- Feed Detail
---- --- --- Model
---- --- --- --- FeedDetail.swift
---- --- --- View
---- --- --- --- FeedDetailViewController.swift
---- --- --- Presenter
---- --- --- --- FeedDetailPresenter.swift
---- --- --- Router
---- --- --- --- FeedDetailRouter.swift
---- --- --- Configurator
---- --- --- --- FeedDetailConfigurator.swift
+--- --- --- FeedDetailAssembly.swift
+--- --- --- FeedDetailViewController.swift
+--- --- --- FeedDetailPresenter.swift
+--- --- --- FeedDetailRouter.swift
 --- --- ...
 --- ...
 --- Services

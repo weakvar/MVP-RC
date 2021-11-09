@@ -8,7 +8,7 @@ protocol ___VARIABLE_productName___PresenterProtocol {
 
 final class ___VARIABLE_productName___Presenter: ___VARIABLE_productName___PresenterProtocol {
     
-    // MARK: - Properties
+    // MARK: - Private Properties
     
     private weak var view: ___VARIABLE_productName___ViewProtocol?
     private let router: ___VARIABLE_productName___RouterProtocol

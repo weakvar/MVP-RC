@@ -8,7 +8,7 @@ protocol ___VARIABLE_productName___RouterProtocol {
 
 final class ___VARIABLE_productName___Router: ___VARIABLE_productName___RouterProtocol {
     
-    // MARK: - Properties
+    // MARK: - Private Properties
     
     private weak var view: UIViewController?
     
